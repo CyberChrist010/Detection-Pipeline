@@ -1,8 +1,3 @@
- Normalizing Web Server Access Logs
-This script processes web server access logs into a normalized format.
-
-python
-Copy code
 import json
 from urllib.parse import urlparse
 
@@ -18,7 +13,7 @@ def parse_web_access_log(log_line):
     }
 
 def main():
-    log_file_path = '/path/to/access/logs'
+    log_file_path = '%SystemDrive%\inetpub\logs\'
     normalized_logs = []
 
     with open(log_file_path, 'r') as file:
