@@ -42,7 +42,7 @@ pip install pandas python-dateutil
 ## Usage
 Data Collection: Place your log files in the logs directory. Ensure they are in JSON format.
 
-Data Parsing: Run the parsing script to extract data from logs.
+Data Parsing: Run the parsing script to extract data from logs. Update the name/scripts needed for each type of use case.
 
 ```bash
 python parse_logs.py
