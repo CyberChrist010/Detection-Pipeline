@@ -54,5 +54,7 @@ Data Integration: Manually import normalized_logs.csv into your SIEM system, or 
 ## Configuration
 The current setup assumes log files in JSON format. To handle different formats, modify the parse_json_log function in parse_logs.py.
 
-## Contributing
+## Contributing and Thanks!
 Contributions to this project are welcome! Please fork the repository and submit a pull request with your improvements.
+
+I sourced (but did not directly copy) information from the following Repo to help with creating scripts for parsing and normalizing different log files: https://github.com/OTRF/OSSEM-DD. Many Thanks for their hardwork!
