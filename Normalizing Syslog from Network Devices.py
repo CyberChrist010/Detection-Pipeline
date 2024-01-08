@@ -1,6 +1,3 @@
-Normalizing Syslog from Network Devices
-This script normalizes Syslog messages from various network devices.
-
 import json
 import re
 
