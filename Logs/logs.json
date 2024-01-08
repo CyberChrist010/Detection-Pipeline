@@ -1,0 +1,34 @@
+{"timestamp": "2024-01-08T12:20:00", "event": "LoginAttempt", "status": "success", "ip_address": "192.168.1.101", "user": "user1"}
+{"timestamp": "2024-01-08T12:25:00", "event": "FileAccess", "status": "success", "ip_address": "192.168.1.102", "user": "user2", "file_path": "/home/user2/docs/document.txt"}
+{"timestamp": "2024-01-08T12:30:00", "event": "NetworkActivity", "status": "warning", "ip_address": "10.0.0.5", "message": "Unusual traffic detected"}
+{"timestamp": "2024-01-08T12:35:00", "event": "SystemAlert", "status": "info", "message": "Scheduled maintenance"}
+{"timestamp": "2024-01-08T12:40:00", "event": "LoginAttempt", "status": "failure", "ip_address": "192.168.1.103", "user": "user3"}
+{"timestamp": "2024-01-08T12:45:00", "event": "ServiceDown", "status": "critical", "service": "WebServer"}
+{"timestamp": "2024-01-08T12:50:00", "event": "DatabaseQuery", "status": "success", "user": "db_admin", "query": "SELECT * FROM users"}
+{"timestamp": "2024-01-08T12:55:00", "event": "UserCreation", "status": "success", "user": "new_user"}
+{"timestamp": "2024-01-08T13:00:00", "event": "PasswordChange", "status": "success", "user": "user4"}
+{"timestamp": "2024-01-08T13:05:00", "event": "EmailSent", "status": "success", "user": "user5", "recipient": "user6@example.com"}
+{"timestamp": "2024-01-08T12:00:00", "event": "LoginAttempt", "status": "success", "ip_address": "192.168.1.100", "user": "admin"}
+{"timestamp": "2024-01-08T12:05:00", "event": "FileAccess", "status": "failure", "ip_address": "192.168.1.105", "user": "jdoe", "file_path": "/etc/passwd"}
+{"timestamp": "2024-01-08T12:10:00", "event": "LoginAttempt", "status": "failure", "ip_address": "192.168.1.110", "user": "admin"}
+{"timestamp": "2024-01-08T12:15:00", "event": "SystemAlert", "status": "critical", "message": "CPU usage exceeded 90%"}
+{"timestamp": "2024-01-08T13:10:00", "event": "LoginAttempt", "status": "success", "ip_address": "192.168.1.106", "user": "user7"}
+{"timestamp": "2024-01-08T13:15:00", "event": "FileAccess", "status": "failure", "ip_address": "192.168.1.107", "user": "user8", "file_path": "/var/log/syslog"}
+{"time": "2024-01-08 13:20:00", "activity": "DataExport", "result": "success", "user": "export_svc", "file": "data_backup.zip"}
+{"logTime": "2024-01-08T13:25:00Z", "action": "UserCreation", "outcome": "success", "account": "new_user9"}
+{"eventTime": "2024-01-08T13:30:00.000Z", "eventType": "SystemUpdate", "status": "initiated", "update_version": "v2.3.1"}
+{"timestamp": "2024-01-08T13:35:00", "event": "LoginAttempt", "status": "success", "ip_address": "10.0.0.12", "user": "admin"}
+{"date": "2024-01-08", "time": "13:40:00", "event": "PasswordReset", "status": "success", "user": "user10"}
+{"timestamp": "2024-01-08T13:45:00", "event": "ServiceRestart", "service": "web_server", "status": "completed"}
+{"eventDateTime": "2024-01-08T13:50:00", "eventType": "Backup", "status": "failure", "error_code": 500}
+{"timestamp": "2024-01-08T13:55:00", "event": "NetworkConfigurationChange", "status": "success", "changed_by": "net_admin"}
+{"timestamp": "2024-01-08T14:00:00", "event": "LoginAttempt", "status": "failure", "ip_address": "192.168.1.108", "user": "user11"}
+{"event_time": "2024-01-08T14:05:00", "log_event": "EmailSent", "status": "success", "sender": "user12@example.com", "receiver": "team@example.com"}
+{"timestamp": "2024-01-08T14:10:00", "event": "LoginAttempt", "status": "success", "ip_address": "192.168.1.109", "user": "user13"}
+{"time": "2024-01-08 14:15:00", "event": "SystemAlert", "level": "warning", "message": "High memory usage detected"}
+{"log_date": "2024-01-08", "log_time": "14:20:00", "activity": "ConfigurationChange", "status": "success", "changed_by": "user14"}
+{"timestamp": "2024-01-08T14:25:00", "event": "FirewallRuleUpdate", "status": "success", "updated_by": "security_team"}
+{"eventTimestamp": "2024-01-08T14:30:00", "activityType": "DatabaseQueryExecution", "outcome": "success", "executed_by": "db_user"}
+{"timestamp": "2024-01-08T14:35:00", "event": "UserDeletion", "status": "success", "user": "old_user15"}
+{"time_logged": "2024-01-08T14:40:00", "log_event": "ApplicationDeployment", "status": "in_progress", "application": "NewCRMApp"}
+{"event_time": "2024-01-08 14:45:00", "event_type": "VPNAccess", "status": "failure", "user": "remote_user16"}
