@@ -1,6 +1,3 @@
-Parsing and Normalizing Windows Event Logs
-This script parses Windows Event Logs, focusing on security-related events.
-
 import json
 import xml.etree.ElementTree as ET
 
@@ -21,7 +18,7 @@ def parse_windows_event_log(xml_log):
     return event_data
 
 def main():
-    log_file_path = '/path/to/windows/event/logs'
+    log_file_path = 'C:\Windows\System32\winevt\Logs'
     normalized_logs = []
 
     with open(log_file_path, 'r') as file:
