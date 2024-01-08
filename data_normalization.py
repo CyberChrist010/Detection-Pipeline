@@ -66,7 +66,6 @@ def normalize_log_entry(log_entry):
             log_entry['normalized_status'] = sanitize_string(log_entry.pop(key))
             break
 
-    # Additional specific fields normalization
     # Normalize file paths
     if 'file_path' in log_entry:
         log_entry['normalized_file_path'] = sanitize_string(log_entry.pop('file_path'))
@@ -86,7 +85,7 @@ def read_log_file(file_path):
             if parsed_log:
                 yield normalize_log_entry(parsed_log)
 
-# File path
+# File path... File name is example UPDATE IT!
 log_file_path = 'sample_logs.json'
 
 # Processing log file
