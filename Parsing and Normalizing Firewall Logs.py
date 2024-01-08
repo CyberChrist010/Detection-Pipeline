@@ -1,13 +1,8 @@
- Parsing and Normalizing Firewall Logs
-This script reads firewall logs, normalizes the data, and prepares it for import into a SIEM.
-
-python
-Copy code
 import json
 import re
 
 def parse_firewall_log(log_line):
-    # Regex pattern for a hypothetical firewall log
+    # Regex pattern for a firewall log
     pattern = re.compile(r'(\S+) (\S+) (\S+) (\S+) (\S+)')
     match = pattern.match(log_line)
 
