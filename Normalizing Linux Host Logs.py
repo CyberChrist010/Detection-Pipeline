@@ -17,7 +17,7 @@ def parse_linux_log(log_line):
         return None
 
 def main():
-    log_file_path = '/var/logs'
+    log_file_path = '/var/logs/'
     normalized_logs = []
 
     with open(log_file_path, 'r') as file:
