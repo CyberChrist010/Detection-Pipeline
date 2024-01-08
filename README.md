@@ -4,7 +4,7 @@
 
 This project provides a simple and effective pipeline for parsing and normalizing log data for integration with SIEM systems. It demonstrates the collection, parsing, normalization, and storage of log data, preparing it for effective utilization in SIEM systems. 
 
-## Please Note: You will need to update the file names and paths to the logs in each script as all enviornments are built differently! This Repo and pipeline is built as an example and is pulled from my scripts and notes from over the years working in Linux, Windows and with different vendors for Cloud, Firewalls, IDSs and SIEMs and as such, I have made my notes and scripts public as was requested for job interview(s) and I welcome any comments or suggestions!
+## Please Note: You will need to update the file names (depending on your use case) and paths to the logs in each script as all enviornments are built differently! This Repo and pipeline is built as an example and is pulled from my scripts and notes from over the years working in Linux, Windows and with different vendors for Cloud, Firewalls, IDSs and SIEMs and as such, I have made my notes and scripts public as was requested for job interview(s) and I welcome any comments or suggestions!
 
 ## Features
 
